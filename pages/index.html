@@ -11,7 +11,10 @@
     <script src="js/templates/templates.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function () {
-        Coveo.SearchEndpoint.configureSampleEndpointV2();
+        Coveo.SearchEndpoint.configureCloudV2Endpoint(
+          "davidhunterbh1yz2kg",
+          "xxf8c63156-e26d-43be-a06b-65bf02f73c08"
+        );
         Coveo.init(document.body);
       })
     </script>
